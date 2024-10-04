@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { useAppSelector } from "../../../redux/hook";
 import { Chart } from "chart.js/auto";
-import growthDatasets from "./GrowthDatasets";
+import growthDatasets from "./growthDatasets";
 
 const GrowthChart = () => {
   const canvasRef = useRef<null | HTMLCanvasElement>(null);
